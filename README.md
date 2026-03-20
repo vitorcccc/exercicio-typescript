@@ -28,14 +28,6 @@ Este é um **exercício de introdução ao TypeScript** desenvolvido durante a a
 
 ---
 
-## LINK DO REPOSITÓRIO
-
-**Repositório principal:** [https://github.com/isadorameneghetti/exercicio-typescript](https://github.com/isadorameneghetti/exercicio-typescript)
-
-**Branch do projeto:** `main`
-
----
-
 ## 🧠 CONCEITOS DE TYPESCRIPT UTILIZADOS
 
 Este exercício foi desenvolvido aplicando os conceitos fundamentais de TypeScript:
@@ -184,15 +176,3 @@ for (const produto of produtos) {
 | **Documentação embutida** | O tipo define exatamente o que um produto deve ter |
 | **Refatoração segura** | Alterar o tipo Produto atualiza todos os usos |
 | **Intenção clara** | `function exibirProduto(produto: Produto): string` é auto-documentável |
-
-## DISCIPLINA
-
-**Mobile Development e IoT**
-
-Professor: Hete Caetano dos Santos
-
-FACULDADE FIAP - 2026
-
-## LICENÇA
-
-Este projeto foi desenvolvido para fins educacionais. Todos os direitos reservados aos autores.
