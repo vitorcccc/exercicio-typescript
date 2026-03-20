@@ -1,0 +1,45 @@
+{
+  // COMPILEROPTIONS: Configurações do compilador TypeScript
+  "compilerOptions": {
+    // target: Versão do JavaScript que será gerada
+    // ES6 adiciona suporte a features modernas como arrow functions, template strings, etc.
+    "target": "ES6",
+    
+    // strict: Ativa todas as verificações rigorosas de tipo
+    // Impede comportamentos ambíguos como any implícito
+    "strict": true,
+    
+    // outDir: Pasta onde os arquivos .js compilados serão salvos
+    // Mantém os arquivos fonte .ts separados dos arquivos gerados
+    "outDir": "./dist",
+    
+    // rootDir: Diretório raiz dos arquivos fonte .ts
+    // Mantém a estrutura de pastas na compilação
+    "rootDir": "./",
+    
+    // module: Sistema de módulos usado no JavaScript gerado
+    // commonjs é o padrão do Node.js
+    "module": "commonjs",
+    
+    // esModuleInterop: Permite importar módulos CommonJS com sintaxe ES6
+    // Facilita o uso de bibliotecas que usam module.exports
+    "esModuleInterop": true,
+    
+    // skipLibCheck: Ignora checagem de tipos em arquivos de declaração (.d.ts)
+    // Acelera a compilação em projetos grandes
+    "skipLibCheck": true,
+    
+    // forceConsistentCasingInFileNames: Garante que nomes de arquivos usem maiúsculas/minúsculas consistentemente
+    // Evita erros em sistemas de arquivos case-sensitive (Linux/Mac)
+    "forceConsistentCasingInFileNames": true
+  },
+  
+  // include: Padrões de arquivos que devem ser incluídos na compilação
+  // *.ts significa "todos os arquivos .ts na raiz"
+  "include": ["*.ts"],
+  
+  // exclude: Pastas que devem ser ignoradas na compilação
+  // node_modules: dependências (já estão compiladas)
+  // dist: pasta de saída (não precisa compilar o que já foi gerado)
+  "exclude": ["node_modules", "dist"]
+}
