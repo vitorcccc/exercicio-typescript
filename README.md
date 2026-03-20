@@ -8,7 +8,7 @@
 
 | Nome | RM |
 |------|-----|
-| **Vitor Couto Victorino** rm554965
+| **Vitor Couto Victorino** | 554965
 
 ---
 
