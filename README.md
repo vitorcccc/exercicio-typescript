@@ -92,7 +92,7 @@ O projeto inclui um arquivo `tsconfig.json` com as seguintes configurações:
 
 1. **Clone o repositório**
 ```bash
-git clone https://github.com/isadorameneghetti/exercicio-typescript
+git clone https://github.com/vitorcccc/exercicio-typescript
 ```
 
 2. **Acesse a pasta do projeto**
